@@ -1,0 +1,32 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up environment variables
+      env:
+        SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+        SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+        FITBIT_CLIENT_ID: ${{ secrets.FITBIT_CLIENT_ID }}
+        FITBIT_CLIENT_SECRET: ${{ secrets.FITBIT_CLIENT_SECRET }}
+        YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        MONGODB_URI: ${{ secrets.MONGODB_URI }}
+      run: |
+        echo "SPOTIFY_CLIENT_ID=$SPOTIFY_CLIENT_ID" >> .env
+        echo "SPOTIFY_CLIENT_SECRET=$SPOTIFY_CLIENT_SECRET" >> .env
+        echo "FITBIT_CLIENT_ID=$FITBIT_CLIENT_ID" >> .env
+        echo "FITBIT_CLIENT_SECRET=$FITBIT_CLIENT_SECRET" >> .env
+        echo "YOUTUBE_API_KEY=$YOUTUBE_API_KEY" >> .env
+        echo "MONGODB_URI=$MONGODB_URI" >> .env
+
+  

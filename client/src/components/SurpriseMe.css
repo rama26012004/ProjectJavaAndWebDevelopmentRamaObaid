@@ -1,0 +1,77 @@
+.quote-section {
+    margin-bottom: 4rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-image {
+    width: 80%;
+    height: auto;
+    max-width: 100%;
+    max-height: 50vh; 
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.quote-section p {
+    font-style: italic;
+    margin-top: 0.5rem;
+}
+
+.surprise-me {
+    margin-top: 2rem; 
+    margin-bottom: 4rem; 
+    text-align: center;
+}
+
+.surprise-me button {
+    padding: 1rem 2rem; 
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 12px;
+    cursor: pointer;
+    margin: 1rem auto;
+    display: inline-block; 
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 1.2rem; 
+    width: 90%; 
+    max-width: 600px; 
+    box-sizing: border-box; 
+    white-space: nowrap;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}
+
+.surprise-me button:hover {
+    background-color: #ffffff;
+    color: #1e1e1e;
+}
+
+.surprise-me button svg {
+    margin-right: 0.5rem;
+}
+
+.poetic-text {
+    font-style: italic;
+    color: #cccccc;
+    margin-top: 1rem; 
+    margin-bottom: 1rem; 
+    font-size: 1.2rem; 
+}
+
+@media (max-width: 768px) {
+    .surprise-me button {
+        font-size: 1rem; 
+        padding: 0.8rem 1.5rem; 
+    }
+}
+
+@media (max-width: 480px) {
+    .surprise-me button {
+        font-size: 0.9rem; 
+        padding: 0.6rem 1rem;
+    }
+}

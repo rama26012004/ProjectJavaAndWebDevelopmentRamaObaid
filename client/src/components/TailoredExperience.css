@@ -1,0 +1,211 @@
+.tailored-experience {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.tailored-experience h2 {
+    margin-bottom: 2rem; 
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.spotify-login {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    align-items: center;
+    gap: 2rem; 
+    margin-bottom: 4rem; 
+}
+
+.login-button.spotify, .login-button.fitbit, .placeholder button {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 12px; 
+    cursor: pointer;
+    font-size: 1.2rem; 
+    transition: background-color 0.3s, color 0.3s;
+    width: 100%; 
+    max-width: 600px;
+    box-sizing: border-box; 
+    padding: 1rem 3rem; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-bottom: 1rem; 
+}
+
+.login-button.spotify:hover, .login-button.fitbit:hover, .placeholder button:hover {
+    background-color: #4c4c4c;
+    color: #ffffff;
+}
+
+.login-button.spotify svg, .login-button.fitbit svg {
+    margin-right: 0.5rem;
+}
+
+.placeholder input {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 12px; 
+    font-size: 1.2rem; 
+    transition: background-color 0.3s, color 0.3s;
+    width: 100%; 
+    max-width: 1000px; 
+    box-sizing: border-box; 
+    padding: 1.5rem 5rem; 
+    margin-bottom: 2rem; 
+}
+
+.poetic-text {
+    font-style: italic;
+    color: #cccccc;
+    margin-top: 1rem; 
+    margin-bottom: 1rem;
+    font-size: 1.2rem; 
+}
+
+.experience-options {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem; 
+    margin-bottom: 2rem;
+}
+
+.option {
+    background-color: #1e1e1e;
+    border: 1px solid #ffffff;
+    border-radius: 12px;
+    padding: 1rem;
+    width: 100%;
+    max-width: 800px; 
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+    margin-bottom: 2rem; 
+}
+
+.option:hover {
+    background-color: #4c4c4c; 
+    color: #ffffff;
+}
+
+.option h2 {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.option h2 svg {
+    font-size: 2rem;
+    margin-right: 0.5rem;
+}
+
+.option p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.option input {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 1rem 3rem; 
+    border-radius: 12px; 
+    margin-bottom: 2rem; 
+    width: 100%; 
+    max-width: 800px; 
+    font-size: 1.2rem;
+    box-sizing: border-box;
+}
+
+.option button {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 1rem 3rem;
+    border-radius: 12px; 
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+    max-width: 800px; 
+    font-size: 1.2rem;
+    transition: background-color 0.3s, color 0.3s;
+    margin: 1rem auto 0;
+}
+
+.option button:hover {
+    background-color: #4c4c4c; 
+    color: #ffffff; 
+}
+
+.option button svg {
+    margin-right: 0.5rem;
+}
+
+.placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem; 
+    width: 70%;
+    margin-bottom: 2rem; 
+}
+
+.placeholder button:first-of-type {
+    margin-bottom: 2rem; 
+}
+
+@media (max-width: 768px) {
+    .option, .login-button.spotify, .login-button.fitbit, .placeholder input, .placeholder button {
+        width: 90%; 
+    }
+}
+
+.surprise-me-button {
+    padding: 1rem 2rem; 
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 12px; 
+    cursor: pointer;
+    margin: 1rem auto; 
+    display: inline-block; 
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 1.2rem; 
+    width: 100%; 
+    max-width: 600px; 
+    box-sizing: border-box;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+
+.surprise-me-button:hover {
+    background-color: #ffffff;
+    color: #1e1e1e;
+}
+
+.surprise-me-button svg {
+    margin-right: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .surprise-me-button {
+        font-size: 1rem; 
+        padding: 0.8rem 1.5rem; 
+    }
+}
+
+@media (max-width: 480px) {
+    .surprise-me-button {
+        font-size: 0.9rem; 
+        padding: 0.6rem 1rem; 
+    }
+}

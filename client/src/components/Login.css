@@ -1,0 +1,30 @@
+.login-container {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container button {
+    padding: 0.5rem 1rem;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 24px;
+    cursor: pointer;
+    margin: 0.5rem;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 1rem;
+}
+
+.login-container button:hover {
+    background-color: #ffffff;
+    color: #1e1e1e;
+}
+
+.login-container button svg {
+    margin-right: 0.5rem;
+}
+

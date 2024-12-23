@@ -1,0 +1,122 @@
+.playlist-generator {
+    margin-bottom: 4rem; 
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; 
+    padding: 0 1rem;
+    box-sizing: border-box; 
+}
+
+.input-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%; 
+    margin-bottom: 2rem; 
+}
+
+.input-container input {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 1rem;
+    padding-right: 4rem;
+    border-radius: 12px; 
+    width: 100%; 
+    font-size: 1.2rem;
+    box-sizing: border-box;
+}
+
+.info-icon {
+    position: absolute;
+    right: 1rem; 
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.info-icon .tooltip {
+    visibility: hidden;
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; 
+    left: 50%;
+    margin-left: -100px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.info-icon:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+.playlist-generator button {
+    display: block; 
+    margin: 2rem auto; 
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 1rem 2rem;
+    border-radius: 12px; 
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s, color 0.3s;
+    width: 100%; 
+    max-width: 400px; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+
+.playlist-generator button:hover {
+    background-color: #ffffff;
+    color: #1e1e1e;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+.instruction {
+    font-style: italic;
+    color: #cccccc;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem; 
+    font-size: 1.4rem; 
+}
+
+@media (max-width: 768px) {
+    .input-container input {
+        padding: 0.8rem;
+        font-size: 1rem;
+    }
+
+    .playlist-generator button {
+        padding: 0.8rem 1.5rem;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .input-container input {
+        padding: 0.6rem;
+        font-size: 0.9rem;
+    }
+
+    .playlist-generator button {
+        padding: 0.6rem 1rem;
+        font-size: 0.9rem;
+    }
+}

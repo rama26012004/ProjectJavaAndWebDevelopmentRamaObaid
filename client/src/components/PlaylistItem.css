@@ -1,0 +1,93 @@
+
+.playlist-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5rem;
+    background-color: #1e1e1e;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: relative;
+    will-change: transform, box-shadow;
+}
+
+.playlist-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.playlist-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+
+.playlist-image-placeholder {
+    background-color: #ccc;
+    width: 100%;
+    padding-top: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+
+.playlist-name {
+    font-size: 1rem;
+    color: #ffffff;
+    margin: 0;
+}
+
+.playlist-genres {
+    font-size: 0.9rem;
+    color: #cccccc;
+    margin: 0.5rem 0;
+}
+
+.playlist-link {
+    color: #d2a76b;
+    text-decoration: none;
+    margin-top: 0.5rem;
+}
+
+.playlist-link:hover {
+    text-decoration: underline;
+}
+
+.playlist-album {
+    font-size: 0.9rem;
+    color: #cccccc;
+    margin-top: 0.5rem;
+}
+
+.spotify-player-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.spotify-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+
+.spotify-link {
+    color: #d2a76b;
+    text-decoration: none;
+    margin-top: 0.5rem;
+}
+
+.spotify-link:hover {
+    text-decoration: underline;
+}

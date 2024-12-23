@@ -1,0 +1,18 @@
+.quote-section {
+    margin-bottom: 4rem; 
+    text-align: center;
+}
+
+.quote-image {
+    width: 80%; 
+    height: auto;
+    max-width: 100%;
+    max-height: 50vh; 
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.quote-section p {
+    font-style: italic;
+    margin-top: 0.5rem;
+}

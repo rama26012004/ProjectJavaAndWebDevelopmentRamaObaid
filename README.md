@@ -14,7 +14,7 @@ This project is a web application that creates personalized playlists based on t
 - User-friendly interface for easy navigation and interaction.
 
 # .env file 
-The '.env' file is essential for running the server side of the code. To assist you, I have created a '.env.example' file that contains the necessary variables. Please note that I have provided the values for these variables, such as API keys and client secrets, in the first slide of the Phase 2 submission. Therefore, you should create a '.env' file in the server directory and copy these values into it.
+The '.env' file is essential for running the server side of the code. To assist you, I have created a '.env.example' file in the server folder that contains the necessary variables. Please note that I have provided the values for these variables, such as API keys and client secrets, in the first slide of the Phase 2 submission. Therefore, you should create a '.env' file in the server directory and copy these values into it.
 
 
 ## Installing 

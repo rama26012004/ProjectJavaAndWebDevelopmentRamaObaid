@@ -4,6 +4,7 @@
 
 This project is a web application that creates personalized playlists based on the user's mood, genre preferences, and other factors such as weather and physical activity data. It integrates with Spotify and YouTube to fetch and play music and with Fitbit and Weather APIs to tailor the playlist experience.
 
+
 ## Features
 
 - Generate playlists based on mood, genre, and artist preferences.
@@ -13,7 +14,14 @@ This project is a web application that creates personalized playlists based on t
 - Use physical activity data from Fitbit to create workout-specific playlists.
 - User-friendly interface for easy navigation and interaction.
 
-# .env file 
+## Structure of this repository 
+The most important folders in this repository are the server and client folders,
+First, the server folder contains the server.js file that is responsible for running the server side of the code. In addition to the server.js it contains the '.env' file, these two files are the most crucial part of it.
+Second, the client folder, which itself has multiple parts,
+first is the src folder, this folder consists of several codes regarding the overall structure of the website such as App.js, App.css, and index files, it also consists of two folders: services folder which contains js code files regarding certain services used, and the other folder is the components folder, this folder contains most of the components I used to build my frontend and its style. 
+In addition to the src folder the client folder contains the public folder which mainly consists of some images used in the website or some images to get fetched in case there is no playlist image "Null value " along with the index.html file and more. 
+
+## .env file 
 The '.env' file is essential for running the server side of the code. To assist you, I have created a '.env.example' file in the server folder that contains the necessary variables. Please note that I have provided the values for these variables, such as API keys and client secrets, in the first slide of the Phase 2 submission. Therefore, you should create a '.env' file in the server directory and copy these values into it.
 
 
@@ -39,20 +47,20 @@ node server.js
 
 if you download the code as a zip file, extract the files and 
 ideally, the commands will be like: 
-cd desktop 
-cd ProjectJavaAndWebDevelopment-main
-cd server
-node server.js
+1-cd desktop 
+2-cd ProjectJavaAndWebDevelopment-main
+3-cd server
+4-node server.js
 
 
 For the UI frontend part, you need to go to the directories where the codes exist and then start it by writing : 
 
 npm start 
 ideally the command will be like(if the files are downloaded into your local machine) : 
-cd desktop 
-cd ProjectJavaAndWebDevelopment-main
-cd client 
-npm start 
+1-cd desktop 
+2-cd ProjectJavaAndWebDevelopment-main
+3-cd client 
+4-npm start 
 
 ## Limitations : 
 Please note that if you need to log in to Spotify, I need to add your username and email as a tester in my developer dashboard; otherwise, authorization is not possible.

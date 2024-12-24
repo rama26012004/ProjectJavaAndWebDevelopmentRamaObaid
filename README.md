@@ -14,7 +14,8 @@ This project is a web application that creates personalized playlists based on t
 - User-friendly interface for easy navigation and interaction.
 
 # .env file 
-please ensure the '.env' file exists otherwise the code will not work since this file contains API keys and other environment variables.
+The '.env' file is essential for running the server side of the code. To assist you, I have created a '.env.example' file that contains the necessary variables. Please note that I have provided the values for these variables, such as API keys and client secrets, in the first slide of the Phase 2 submission. Therefore, you should create a '.env' file in the server directory and copy these values into it.
+
 
 ## Installing 
 
@@ -70,7 +71,7 @@ Express: For handling HTTP requests and routing.
 MongoDB: For data storage.
 
 ### APIs:
-Spotify API: For fetching and playing music.
+Spotify API: For fetching music.
 Weather API: For fetching weather data.
 Fitness Tracker API: For fetching physical activity data.
 YouTube API: For fetching and playing music.

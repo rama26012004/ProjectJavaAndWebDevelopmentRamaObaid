@@ -41,7 +41,7 @@ To make this code work without any error, you need to install the following depe
 
 
 ## Starting the application 
-You need to go to the directories where the server.js is located, then enter this command to make the server side work: 
+**You need to go to the directories where the server.js is located, then enter this command to make the server side work:** 
 
 node server.js 
 
@@ -53,7 +53,7 @@ ideally, the commands will be like:
 4-node server.js
 
 
-For the UI frontend part, you need to go to the directories where the codes exist and then start it by writing : 
+**For the UI frontend part, you need to go to the directories where the codes exist and then start it by writing :**
 
 npm start 
 ideally the command will be like(if the files are downloaded into your local machine) : 
@@ -61,6 +61,31 @@ ideally the command will be like(if the files are downloaded into your local mac
 2-cd ProjectJavaAndWebDevelopment-main
 3-cd client 
 4-npm start 
+
+**In case you want to clone it from git follow this:**
+
+Steps to clone the repository directly from Git, please note that these steps assume that you have already installed Git into your system : 
+
+First, clone the repository, as an example :
+git clone https://github.com/rama26012004/ProjectJavaAndWebDevelopment.git
+
+Second, navigate to the cloned repository, as an example : 
+
+cd ProjectJavaAndWebDevelopmentRamaObaid
+
+Third, create the .env file in the server folder, and copy the values I have in the title slide, it's ideal to create a text file and then convert it to a .env file 
+
+Fourth, you need to install the dependencies, as mentioned above 
+
+Fifth, navigate to the server folder and start the node server.js,  as an example: cd ProjectJavaAndWebDevelopmentRamaObaid
+
+cd server 
+
+node server.js
+
+Sixth, navigate to the client folder and start the frontend:
+npm start 
+
 
 ## Limitations : 
 Please note that if you need to log in to Spotify, I need to add your username and email as a tester in my developer dashboard; otherwise, authorization is not possible.

@@ -48,8 +48,9 @@ node server.js
 if you download the code as a zip file, extract the files and 
 ideally, the commands will be like: 
 1-cd desktop 
-2-cd ProjectJavaAndWebDevelopment-main
+2-cd ProjectJavaAndWebDevelopmentRamaObaid
 3-cd server
+--create the .env file here 
 4-node server.js
 
 
@@ -58,7 +59,7 @@ ideally, the commands will be like:
 npm start 
 ideally the command will be like(if the files are downloaded into your local machine) : 
 1-cd desktop 
-2-cd ProjectJavaAndWebDevelopment-main
+2-cd ProjectJavaAndWebDevelopmentRamaObaid
 3-cd client 
 4-npm start 
 
@@ -75,7 +76,7 @@ cd ProjectJavaAndWebDevelopmentRamaObaid
 
 Third, create the .env file in the server folder, and copy the values I have in the title slide, it's ideal to create a text file and then convert it to a .env file 
 
-Fourth, you need to install the dependencies, as mentioned above 
+Fourth, you need to install the dependencies, as mentioned above, if you haven't yet 
 
 Fifth, navigate to the server folder and start the node server.js,  as an example: cd ProjectJavaAndWebDevelopmentRamaObaid
 

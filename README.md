@@ -68,7 +68,7 @@ ideally the command will be like(if the files are downloaded into your local mac
 Steps to clone the repository directly from Git, please note that these steps assume that you have already installed Git into your system : 
 
 First, clone the repository, as an example :
-git clone https://github.com/rama26012004/ProjectJavaAndWebDevelopment.git
+git clone https://github.com/rama26012004/ProjectJavaAndWebDevelopmentRamaObaid.git
 
 Second, navigate to the cloned repository, as an example : 
 

@@ -21,6 +21,8 @@ Second, the client folder, which itself has multiple parts,
 first is the src folder, this folder consists of several codes regarding the overall structure of the website such as App.js, App.css, and index files, it also consists of two folders: services folder which contains js code files regarding certain services used, and the other folder is the components folder, this folder contains most of the components I used to build my frontend and its style. 
 In addition to the src folder the client folder contains the public folder which mainly consists of some images used in the website or some images to get fetched in case there is no playlist image "Null value " along with the index.html file and more. 
 
+The docs_phase3 directory have two files , one which is the video of the website in work , and the other one is a .txt file that contains a google drive link in case the you were unable to download/play the video  
+
 ## .env file 
 The '.env' file is essential for running the server side of the code. To assist you, I have created a '.env.example' file in the server folder that contains the necessary variables. Please note that I have provided the values for these variables, such as API keys and client secrets, in the first slide of the Phase 2 submission. Therefore, you should create a '.env' file in the server directory and copy these values into it.
 

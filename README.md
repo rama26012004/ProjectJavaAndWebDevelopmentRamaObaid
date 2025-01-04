@@ -35,7 +35,7 @@ npm or yarn (This project steps work with npm)
 
 ### Install dependencies 
 To make this code work without any error
-**Run: npm install 
+**Run: npm install, 
 and it will install all of the related dependencies from the package.json file** , in case you need to install them manually :
 
 - npm install express mongoose axios qs cors dotenv

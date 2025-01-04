@@ -32,7 +32,9 @@ Node.js (v20.18.0) is used in this project
 npm or yarn (This project steps work with npm) 
 
 ### Install dependencies 
-To make this code work without any error, you need to install the following dependencies :
+To make this code work without any error
+Run npm install
+and it will install all of the related dependencies from the package.json file, in case you need to install them manually :
 - npm install express mongoose axios qs cors dotenv
 - npm install react react-dom
 - npm install react-scripts
